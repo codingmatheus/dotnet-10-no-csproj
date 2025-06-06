@@ -1,0 +1,16 @@
+- intro
+ - .NET 10 just introduced a major change. You are now able to run C# without a csproj file! 
+ - this brings it closer to Python or NodeJs which in my opinion is a long time coming cuz now you can use C# like a scripting language without having to worry
+ - let's see how this works
+ about a whole framework
+- create App.cs
+- Console.WriteLine("Hello, .NET10 and C#14!)
+- run it 
+- what if we want to add packages?
+- intro to Cowsay
+    - show web page
+- add package in #:package Cowsay
+- add using Cowsay;
+- create a static cow
+- modify Console.Writeline with staticCow.Say()
+- closing, CTA code is in my github , link in the description

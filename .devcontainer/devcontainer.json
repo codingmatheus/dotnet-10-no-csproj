@@ -1,0 +1,11 @@
+{ 
+  "name": "C# with .NET 10 Preview", 
+  "build": { 
+    "dockerfile": "Dockerfile" 
+  }, 
+  "extensions": [ 
+    "ms-dotnettools.csharp", 
+    "ms-dotnettools.csdevkit" 
+  ], 
+  "postCreateCommand": "dotnet --version" 
+}
